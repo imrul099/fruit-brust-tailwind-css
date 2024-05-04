@@ -27,8 +27,39 @@
     </style>
   </head>
   <body>
-    <header class="">
-
+    <header class="container mx-auto lg:px-24 px-8 my-5">
+        <div class="navbar bg-[#FF6656] rounded-full">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Shop</a></li>
+                <li><a>Contact</a></li>
+                
+              </ul>
+            </div>
+            <div class="space-x-4 hidden lg:flex text-white text-lg font-semibold">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Shop</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="navbar-center lg:flex">
+            <img class="w-12 h-12" src="./images/logo.png" alt="">
+            <h6 class="ml-4 text-2xl font-semibold text-white">Fruit Burst</h6>
+          </div>
+          <div class="navbar-end">
+            <div class="bg-white hidden lg:flex items-center justify-between py-2 px-5 rounded-full">
+              <input class="outline-none" type="text" placeholder="search">
+              <img class="cursor-pointer" src="./images/Vector.png" alt="">
+            </div>
+          </div>
+        </div>
     </header>
     <main>
 
